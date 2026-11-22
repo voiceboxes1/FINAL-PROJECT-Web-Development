@@ -11407,6 +11407,9 @@ p {
   font-weight: 400;
   line-height: 1;
 }
+.preparation-tips-button {
+  margin-top: auto;
+}
 .preparation-tips-button:hover {
   background-color: #557d64;
   color: #fff;
@@ -12039,4 +12042,5 @@ section#contact form#contactForm :-ms-input-placeholder {
   max-width: 100%;
   height: auto;
   display: block;
+  margin-inline: auto;
 }
