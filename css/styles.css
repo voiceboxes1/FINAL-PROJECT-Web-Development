@@ -498,100 +498,103 @@ legend + * {
 /* yall this is what I did.. umm genuinely my head hurts and idk what to do anymore */
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    margin: 0;
-    font-family: 'Montserrat', Arial, sans-serif;
+  margin: 0;
+  font-family: "Montserrat", Arial, sans-serif;
 }
 
 .home-main {
-    padding: 22px 5.5vw 70px;
-    text-align:center
+  padding: 22px 5.5vw 70px;
+  text-align: center;
 }
 
 .hero {
-    width: min(100%, 1390px);
-    height: clamp(390px, 45vw, 540px);
-    margin: 0 auto;
-    border-radius: 42px;
-    overflow: hidden;
-    position: relative;
-    background: linear-gradient(#3d2c1d38, #2a1b113d), url('images/drought-hero.jpg') center 53% / cover no-repeat, linear-gradient(135deg, #c18b50, #51402d);
-    display: grid;
-    place-items: center;
-    color: var(--white);
-    text-align: center;
-    box-shadow: 0 2px 5px #49372f12;
+  width: min(100%, 1390px);
+  height: clamp(390px, 45vw, 540px);
+  margin: 0 auto;
+  border-radius: 42px;
+  overflow: hidden;
+  position: relative;
+  background:
+    linear-gradient(#3d2c1d38, #2a1b113d),
+    url("images/drought-hero.jpg") center 53% / cover no-repeat,
+    linear-gradient(135deg, #c18b50, #51402d);
+  display: grid;
+  place-items: center;
+  color: var(--white);
+  text-align: center;
+  box-shadow: 0 2px 5px #49372f12;
 }
 
-    .hero h1 {
-        margin: 0;
-        padding: 20px 90px;
-        font-family: 'Oswald', Impact, sans-serif;
-        font-size: clamp(3rem, 5.2vw, 5rem);
-        line-height: 1.45;
-        letter-spacing: .02em;
-        text-shadow: 0 3px 5px #0008;
-    }
+.hero h1 {
+  margin: 0;
+  padding: 20px 90px;
+  font-family: "Oswald", Impact, sans-serif;
+  font-size: clamp(3rem, 5.2vw, 5rem);
+  line-height: 1.45;
+  letter-spacing: 0.02em;
+  text-shadow: 0 3px 5px #0008;
+}
 
 .intro-copy {
-    width: min(100%, 1490px);
-    margin: 0 auto;
-    font-size: clamp(1.05rem, 1.8vw, 2rem);
-    line-height: 1.55;
+  width: min(100%, 1490px);
+  margin: 0 auto;
+  font-size: clamp(1.05rem, 1.8vw, 2rem);
+  line-height: 1.55;
 }
 
 /* ABOUT PAGE */
 .about-main {
-    min-height: calc(100vh - 96px);
-    padding: clamp(38px, 5vw, 70px) 5.6vw 90px;
+  min-height: calc(100vh - 96px);
+  padding: clamp(38px, 5vw, 70px) 5.6vw 90px;
 }
 
 .about-row {
-    width: min(100%, 1740px);
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: minmax(280px, 0.92fr) minmax(0, 1.55fr);
-    gap: clamp(32px, 3vw, 48px);
-    align-items: start;
+  width: min(100%, 1740px);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(280px, 0.92fr) minmax(0, 1.55fr);
+  gap: clamp(32px, 3vw, 48px);
+  align-items: start;
 }
 
-    .about-row + .about-row {
-        margin-top: clamp(40px, 4vw, 66px);
-        grid-template-columns: minmax(0, 1.55fr) minmax(280px, 0.92fr);
-    }
+.about-row + .about-row {
+  margin-top: clamp(40px, 4vw, 66px);
+  grid-template-columns: minmax(0, 1.55fr) minmax(280px, 0.92fr);
+}
 
 .about-image {
-    width: 100%;
-    aspect-ratio: 1.58 / 1;
-    display: block;
-    object-fit: cover;
-    background: #c5eaf8;
+  width: 100%;
+  aspect-ratio: 1.58 / 1;
+  display: block;
+  object-fit: cover;
+  background: #c5eaf8;
 }
 
 .about-copy h2 {
-    margin: -8px 0 8px;
-    font-family: 'Oswald', Impact, sans-serif;
-    font-size: clamp(2.15rem, 3.1vw, 3.65rem);
-    line-height: 1.15;
-    font-weight: 700;
-    text-transform: uppercase;
+  margin: -8px 0 8px;
+  font-family: "Oswald", Impact, sans-serif;
+  font-size: clamp(2.15rem, 3.1vw, 3.65rem);
+  line-height: 1.15;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .about-copy p {
-    margin: 0;
-    font-size: clamp(1.05rem, 1.75vw, 2rem);
-    line-height: 1.43;
+  margin: 0;
+  font-size: clamp(1.05rem, 1.75vw, 2rem);
+  line-height: 1.43;
 }
 
 .about-row.second .about-copy h2 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .about-row.second .about-image {
-    margin-top: 0;
+  margin-top: 0;
 }
 /* I AM LOSING MY MIND WHAT IS THIS */
 
@@ -12031,4 +12034,9 @@ section#contact form#contactForm :-ms-input-placeholder {
     "Segoe UI Emoji",
     "Segoe UI Symbol",
     "Noto Color Emoji";
+}
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
