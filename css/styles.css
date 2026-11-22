@@ -506,6 +506,10 @@ body {
   font-family: "Montserrat", Arial, sans-serif;
 }
 
+body#page-top:has(section.home-main#home) {
+  background: linear-gradient(to bottom, #ffe599 0%, #fff8e5 100%);
+}
+
 .home-main {
   padding: 22px 5.5vw 70px;
   text-align: center;
