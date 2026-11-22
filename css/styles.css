@@ -7164,7 +7164,7 @@ fieldset:disabled .btn {
 }
 
 .link-secondary {
-  color: #6c757d !important;
+  color: #fff !important;
 }
 .link-secondary:hover,
 .link-secondary:focus {
@@ -8575,7 +8575,7 @@ fieldset:disabled .btn {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #696969 !important;
 }
 
 .text-black-50 {
@@ -11914,7 +11914,7 @@ header.masthead .masthead-heading {
 }
 
 section#contact {
-  background-color: #212529;
+  background-color: #c4913f;
   background-image: url("../assets/img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
