@@ -506,6 +506,39 @@ body {
   font-family: "Montserrat", Arial, sans-serif;
 }
 
+body#page-top:has(section.home-main#home) {
+  background: linear-gradient(to bottom, #ffe599 0%, #fff8e5 100%);
+}
+
+body#page-top:has(section#services) {
+  background: linear-gradient(to bottom, #faf3d1 0%, #d8eaf5 100%);
+}
+
+body#page-top:has(section#portfolio) {
+  background: linear-gradient(to bottom, #d8faf2 0%, #d7f4f8 100%);
+}
+
+body#page-top:has(section#portfolio) #portfolio {
+  background: transparent !important;
+}
+
+body#page-top:has(section#contact) {
+  background: linear-gradient(to bottom, #d8faf2 0%, #d9ffe0 100%);
+}
+
+body#page-top:has(section#contact) .bg-light {
+  background: transparent !important;
+}
+
+body#page-top:has(section#contact) .card.bg-light {
+  background-color: #fff !important;
+}
+
+body#page-top:has(section#contact) section#contact {
+  background-color: transparent;
+  background-image: none;
+}
+
 .home-main {
   padding: 22px 5.5vw 70px;
   text-align: center;
@@ -11531,6 +11564,15 @@ p {
     margin-right: 0;
   }
 }
+body#page-top:has(section#services) #mainNav {
+  background-color: #3b754e;
+}
+
+body#page-top:has(section#portfolio) #mainNav,
+body#page-top:has(section#contact) #mainNav {
+  background-color: #3b754e;
+}
+
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
